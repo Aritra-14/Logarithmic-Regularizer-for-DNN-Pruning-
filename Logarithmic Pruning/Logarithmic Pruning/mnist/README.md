@@ -56,4 +56,4 @@ python prun_tune_V.py --model [path to trained model] --sensitivity [ratio of th
 By default the model will then be finetuned for 100 epochs with learning rate 0.0001. These hyperparameters can be controlled with `--epochs` and `--lr` respectively. Detailed sparsity information (for both element-wise and structural sparsity) of each layer and the whold model will be printed, as well as the best testing accuracy achieved during finetuning. The pruned and finetuned model will also be stored.
 
 ## Acknowledgement
-This code is adapted from [Deep-Compression-PyTorch](https://github.com/mightydeveloper/Deep-Compression-PyTorch).
+This code is adapted from [Deep-Compression-PyTorch](https://github.com/mightydeveloper/Deep-Compression-PyTorch) and [DeepHoyer](https://github.com/yanghr/DeepHoyer) 
